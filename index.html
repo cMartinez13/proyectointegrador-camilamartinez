@@ -1,15 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Proyecto integrador</title>
 </head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Camila</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
 <body>
-    <h1>Proyecto</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur culpa perspiciatis nostrum et dolor error repellendus voluptas delectus labore aut accusamus debitis dolores ullam eum blanditiis, rem beatae mollitia tempora.</p>
-    <h2>Probando git hub pages</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero voluptate debitis impedit earum, expedita ullam nesciunt, at nihil repellendus tenetur officia iste ipsa quis unde facere dolore eaque aspernatur sunt!</p>
+
+
+    <div class="container-fluid row g-0 ">
+        <div class="card text-bg-dark px-0 mx-0 mb-5">
+            <img src="./imagenes/hawaii.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mb-5">
+        <div class="justify-content-center">
+            <h6>Conoce a nuestros:</h6>
+            <h1 class="mb-5 ">Oradores</h1>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./imagenes/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bill Gates</h5>
+                        <button type="button" class="btnNuevo1">JavaScript</button>
+                        <button type="button" class="btnNuevo">React</button>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam facere nisi itaque eligendi blanditiis, assumenda ipsam similique, accusamus ut numquam corporis reprehenderit et rerum, ab maiores quo hic. Animi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./imagenes/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <button type="button" class="btnNuevo1">JavaScript</button>
+                        <button type="button" class="btnNuevo">React</button>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo nihil laudantium eius quasi at corrupti eum atque temporibus asperiores nulla modi fuga nemo ipsum itaque eveniet, ducimus in tenetur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./imagenes/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <button type="button" class="btnNuevo2">Negocios</button>
+                        <button type="button" class="btnNuevo3">Startups</button>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi quasi quidem ipsum totam molestiae consequuntur id ipsam ex itaque nisi sequi suscipit ducimus est, quos laudantium et. Illum, laudantium?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid row g-0 ">
+        <div class="card mb-3 text-white bg-dark " style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="./imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint, quidem ullam soluta neque asperiores ratione illo doloribus eaque unde eius accusantium ducimus atque? Nobis libero dignissimos doloribus perspiciatis. Aut?</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid row g-0 ">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+
+    <footer class="bg-dark text-center text-white">
+       
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          
+        </div>
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright: Camila Martinez Alvarez
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
