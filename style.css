@@ -135,6 +135,7 @@ html, body {
     align-items: center;
     width: 700px;
 }
+
 .btnForm{
     width: 100%;
     color: white;
@@ -143,6 +144,7 @@ html, body {
     height: 40px;
     font-size: medium;
     border-radius: 5px;
+    text-align: center;
 }
 .form-control1{
     width: 700px;
@@ -150,12 +152,19 @@ html, body {
     border-color: rgb(223, 222, 222);
     color: grey;
 }
-.form-control{
+.form-control3{
     width: 340px;
-    height: 30px;
+    height: 40px;
     
 }
 
+
+.form-control2{
+    width: 700px;
+    height: 30px;
+    color: rgb(206, 212, 218);
+   
+}
 .parrafo1{
     font-size: 10px;
 }
@@ -164,6 +173,9 @@ html, body {
     width: 100%;
     justify-content: center;
     
+}
+.centrar3{
+    width: 100%;
 }
 .textoFormulario{
    margin: 0.5px
@@ -179,4 +191,82 @@ html, body {
 }
 .nav-link{
     color: white;
+}
+.tarjeta1{
+    width: cover;
+    height: 300ox;
+    border-style: solid;
+    border-color: rgb(0, 123, 255);
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+.tarjeta2{
+    width: cover;
+    height: 300ox;
+    border-style: solid;
+    border-color: rgb(23, 162, 184);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+}
+.tarjeta3{
+    width: cover;
+    height: 300ox;
+    border-style: solid;
+    border-color: rgb(255, 193, 7);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+
+}
+.grupotarjetas{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 200px;
+    align-items: center;
+}
+.formulariotickets{
+    margin-bottom: 50px;
+}
+
+.venta{
+    width: 700px;
+}
+.venta1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.venta2{
+    width: 340px;
+
+}
+.totalventa{
+    background-color: rgb(205, 229, 255);
+    height: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+.botonventa{
+    background-color: rgb(151, 201, 62);
+    border-radius: 5px;
+    border-color: rgb(151, 201, 62);
 }
