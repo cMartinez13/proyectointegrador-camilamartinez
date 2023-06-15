@@ -15,9 +15,9 @@ function respuestaClick(e){
     let opcionSeleccionada = input5.options[categoriaseleccionada];
     let valorSeleccionado = opcionSeleccionada.value;
     console.log(valorSeleccionado);
-    let descuentoEstudiante = 200 *0.8
+    let descuentoEstudiante = 200 *0.2
     let descuentoTrainee = 200 * 0.5
-    let descuentoJunior = 200 * 0.15
+    let descuentoJunior = 200 * 0.75
     if(valorSeleccionado ==="1"){
         let resultado1 = descuentoEstudiante *input4
         console.log("El total a pagar es "+ resultado1);
@@ -34,7 +34,7 @@ function respuestaClick(e){
     }
     else if(valorSeleccionado==="3"){
         let resultado3 = descuentoJunior *input4
-        console("El total a pagar es"+ resultado3);
+        console.log("El total a pagar es"+ resultado3);
         const totalventa = document.getElementById("totalventa")
         totalventa.innerHTML = "El total a pagar es $ " +resultado3;
     }
