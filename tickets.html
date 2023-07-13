@@ -72,34 +72,34 @@
     <div class="centrar formulariotickets">
         <h6>VENTA</h6>
         <h2>VALOR DE TICKET $200</h2>
-        <form class="venta">
+        <form action="datos.php" class="venta" method="post">
             <div class="venta1">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label"></label>
-                    <input type="text" class="form-control venta2" id="nombre" aria-describedby="emailHelp" placeholder="nombre">
+                    <input type="text" class="form-control venta2" id="nombre" aria-describedby="emailHelp" placeholder="nombre" name="nombre">
                     <div id="nombre" class="form-text"></div>
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label"></label>
-                    <input type="text" class="form-control venta2" id="apellido" aria-describedby="emailHelp" placeholder="apellido">
+                    <input type="text" class="form-control venta2" id="apellido" aria-describedby="emailHelp" placeholder="apellido" name="apellido">
                     <div id="apellido" class="form-text"></div>
                   </div> 
             </div>
             
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"></label>
-              <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="correo">
+              <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="correo" name="email">
               <div id="emailHelp" class="form-text"></div>
             </div>
             <div class="venta1">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Cantidad</label>
-                    <input type="text" class="form-control venta2" id="cantidad" aria-describedby="emailHelp" placeholder="cantidad">
+                    <input type="text" class="form-control venta2" id="cantidad" aria-describedby="emailHelp" placeholder="cantidad" name="cantidad">
                     <div id="cantidad" class="form-text"></div>
                   </div>
                 <div>
-                    <label for="" class="form-label">Categoria</label>
-                    <select class="form-select venta2" aria-label="Default select example" id="categoria">
+                    <label for="" class="form-label">Categoria</label> 
+                    <select class="form-select venta2" aria-label="Default select example" id="categoria" name="categoria">
                         <option selected>Categoria</option>
                         <option value="1">Estudiante</option>
                         <option value="2">Trainee</option>
@@ -111,8 +111,10 @@
                 <p>Total a pagar $</p>
             </div>
             <div class="venta1" id="venta">
-                <button id="boton1" type="reset" class="btn btn-primary venta2 botonventa">Borrar</button>
-                <button id="botonresumen" type="submit" class="btn btn-primary venta2 botonventa">Resumen</button>
+                <button id="boton1" type="reset" class="btn btn-primary venta3 botonventa">Borrar</button>
+                <button id="botonresumen" type="submit" class="btn btn-primary venta3 botonventa">Resumen</button>
+                
+                <input type="submit" class="btn btn-primary venta3 botonventa">
             </div>
             
           </form>

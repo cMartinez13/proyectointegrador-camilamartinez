@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../js8"
+		},
+		{
+			"path": "../../../Ingenias_ypf/Ingenias-Psicoayuda"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PHP - 2023"
+	}
+}
